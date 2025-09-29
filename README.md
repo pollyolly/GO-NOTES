@@ -34,13 +34,6 @@ $go run ./module_one/module1
 $go build ./module_one/module1
 $./module1
 ```
-### Run Go Executable using PM2
-```
-$pm2 start go_simple_api --interpreter none --watch
-
-Browser access:
-http://localhost:8081/articles
-```
 ### Framework
 ```
 Gin (Web Framework)
@@ -60,6 +53,10 @@ $pm2 list
 └────┴──────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴
 
 $pm2 delete 1
+```
+```
+Browser access:
+http://localhost:8081/articles
 ```
 ### Go Lang Official Package Community
 
