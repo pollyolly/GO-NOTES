@@ -1,5 +1,9 @@
 ## GO NOTES
 
+### Run Go using PM2
+```
+$pm2 start go_simple_api --interpreter none --watch
+```
 ### Go Lang Official Package Community
 
 [Package Go Dev](https://pkg.go.dev/)
