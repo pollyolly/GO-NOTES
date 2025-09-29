@@ -1,0 +1,6 @@
+go 1.25.0
+
+use (
+	./go_module_1
+	./go_module_2
+)
